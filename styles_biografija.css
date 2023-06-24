@@ -1,0 +1,122 @@
+*{
+  font-family: cursive;
+  padding: 0;
+  margin: 0;
+}
+.navbar-nav i  {
+  color: white;
+}
+body{
+  background-color: white;
+}
+.container-fluid{
+  background-color: #1D282D ;
+  color: oldlace;
+}
+.card-footer{
+  background-color:#1D282D ;
+  color: oldlace;
+}
+a.active:hover{
+  background-color: #313E44;
+}
+.navbar-collapse{
+  color: white;
+}
+.text4{
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+  margin-left: 20%;
+  background-color: #e3bc9a; 
+  color:#4D4035;"
+}
+ .text4 p{
+  margin : 0 ;
+ } 
+.text4 p:hover {
+  color: oldlace;
+  background-color: #4D4035;
+  width: 100%;
+}
+
+#slika{
+  margin-left: 20%;
+  width: 60%;
+}
+.text5{
+  padding: 15px;
+  width: 75%;
+  margin-left: 20%;
+  height: 100%;
+  background-color: #e3bc9a; 
+  color:#4D4035;"
+}
+
+.slide{
+ margin-left: 20%;
+ width: 75%;
+ }
+
+.row{  
+  background-color: white;
+  color: black;
+}
+.table{
+  width: 50%;
+  margin-left: 10%;
+}
+tr:hover{ background-color: #1D282D ;
+ color: white;
+}
+.vjestine{
+  font-weight: bold;
+  width: 70%;
+  margin-left: 20%;
+  background-color: #e3bc9a;
+  color: #4D4035 ;
+}
+.skills{
+  font-weight: bold;
+  width: 70%;
+  margin-left: 20%;
+  background-color: #e3bc9a;
+  color: #4D4035 ;
+  height: 90%;
+}
+.skills li{
+  font-weight: bold;
+  margin: 5px;
+  list-style-type: none;
+}
+.vjestine li {
+    list-style-type: none;
+    margin: 2px;
+    font-weight: bold;
+}
+#forma{
+ background-color: #e3bc9a;
+ color: #4D4035;
+ margin-bottom: 2%;
+ margin-left: 20%;
+ margin-right: 20%;
+}
+.form-control{
+  background-color: white;
+  color: black;
+}
+.btn-primary{
+  margin-bottom: 5%;
+}
+.card-body{
+  text-align: center;
+}
+.card-body i {
+  color: black;
+}
+.facebook i:hover{
+  color: #0097F9
+}
+.instagram i:hover{
+  color: #E83497;
+}

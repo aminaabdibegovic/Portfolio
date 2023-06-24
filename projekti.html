@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Projekti</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4365/4365945.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="styles_projekti.css">
+
+
+</style>
+</head>
+
+<body>
+   <!-- kopirano sa https://www.w3schools.com/bootstrap5/bootstrap_navbar.php -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="pocetak">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="pocetna.html">
+      <img src="header.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">     
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="biografija.html"><i class="bi bi-person"> Biografija</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="projekti.html"><i class="bi bi-folder-check"> Projekti</i></a>
+        </li>       
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="blog.html"><i class="bi bi-pencil"> Blog</i></a>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="galerija.html"><i class="bi bi-camera"> Galerija</i></a>
+        </li>
+        </li>
+      </ul>
+    <div class="input-group" style="width: 40%;">
+      <input type="text" class="form-control" aria-label="Recipient's username with two button addons">
+      <button class="btn btn-outline-secondary" type="button" style="background-color: white; color: black;">Seacrh</button>
+    </div>
+    </div>
+  </div>
+</nav>
+
+<br>
+
+ <ul class="list-group">
+   <li><a class="list-group-item list-group-item-action disabled" aria-current="true" style="color:#313E44">Projekti</a></li>
+   <li><a href="#projekat1" class="list-group-item list-group-item-action">IMENIK</a></li>
+   <li><a href="#projekat2" class="list-group-item list-group-item-action">BINARNO STABLO PRETRAGE</a></li>
+   <li><a href="#projekat3" class="list-group-item list-group-item-action">ITERATIVNO RJEŠAVANJE SISTEMA<br> LINEARNIH JEDNAČINA</a></li>
+ </ul>
+
+
+<br>
+<br>
+<a id="projekat1">
+  <div class="text1">  <h1 style="text-align: center;">IMENIK</h1>
+ <p> Moj prvi projekat je bio iz predmeta "Strukure podataka  algoritmi". Moj zadatak je bio implementirati klasu Imenik, koji je telefonski imenik, a klasu sam implementirala kao dvostruko povezanu listu. Dvostruko povezana lista je povezana struktura podataka koja se sastoji iz seta sekvencijalno povezanih podataka zvanih čvorovi. Svaki čvor sadrži dva polja, zvana veze, koja su reference na prethodni i sljedeći čvor u sekvenci čvorova. Prethodna i sljedeća veza početnog i krajnjeg čvora, respektivno, pokazuju na neku vrstu terminatora, tipično na stražarski čvor ili nulu, da bi olakšalo upravljanje listom. Ako postoji samo jedan čvor čuvar, onda je lista cirkularno povezana preko čvora stražara. </p>
+  <p>Zadatak može biti urađen kao jednostruko povezana lista formirana od istih podataka, ali u obrnutim sekvencijalnim redovima. Da bi lista funkcionirala, bilo je potrebno implementirati Kontakt strukturu koja nam daje potrebne informacije o elementima liste(kontaktima). Kao i u klasičnom imeniku, kontakti su razvrstani po abecedi, a svaki ima ime i broj. Kako bi lista normalno funkcionirala, osim glavnih (konstruktori, destruktor, operatori dodjele...), implementirala sam potrebne funkcije, koje su implementirane kao funkcije članice.<br>Mentor: mr.Admir Beširević, <a href="https://pmf.unsa.ba/" style="color:white ">Prirodno-matematički fakultet Sarajevo</a></p></p>
+</div>
+</a>
+<div class="container-fluid" style="background-color:white;">
+  <div class="row">
+  <div class="col"><img src="ostaleSlike/Screenshot (61).png" style=" width: 100%;height:600px;"></div></div>
+  <div class="row" style="margin-left: 20px; margin-right: 20px;"> 
+   <div class="col-sm-12 col-md-6 col-lg-6"><img src="ostaleSlike/Screenshot (113).png" style="width:100%; height:500px"></div>
+   <div class="col-sm-12 col-md-6 col-lg-6"><img src="ostaleSlike/Screenshot (115).png" style="width:100%; height:500px"></div>
+</div>
+</div>
+<br>
+<br>
+<a id="projekat2">
+  <div class="text2">
+  <h1 style="text-align:center;">BINARNO STABLO PRETRAGE</h1>
+  <p>Drugi projekat je takođe bio iz predmeta "Strukture podataka i algoritmi".Zadatak je bio da implementiram Binarno stablo pretrage koje pored vrijednosti sadrži i prioritet. Prije svega da objasnim sta je to obicno binarno stablo, a sta binarno stablo pretrage.</p> <p> Binarno stablo se rekurzivno definiše kao konačan skup čvorova koji je ili prazan ili se sastoji od korijena sa dva posebna podstabla, lijevim i desnim, koja su, također, binarna stabla. Ono je po svojoj definiciji poziciono stablo. Binarno stablo pretraživanja (BSP) (engl. Binary Search Tree), ponekad zvano sortirano binarno stablo, je posebna vrsta binarnog stabla koja je izuzetno važna u mnogim primjenama. Čvorovi binarnih stabala pretraživanja sadrže podatke, pri čemu se obično koristi specifično polje koje ima jedinstvenu vrijednost za čitavo stablo. Svaki čvor sadrži dvoje djece od kojih je lijevo manje od trenutnog čvora, a desno veće. </p> <p>Cilj jeste da su čvorovi poredani na način da zadovoljavaju osobinu stabla po vrijednosti elemenata i osobinu Heap-a po vrijednosti prioriteta.Prioritete slučajno generišemo. Osobina Binarnog stabla jeste da je svako lijevo dijete manje od svog roditelja, a svaki roditelj je manji od svog desnog djeteta, osobina Heap-a jeste da svaki roditelj mora imati veći prioritet od svoje djece. Na taj način ćemo postići traženu balansiranost.<br>Mentor: mr.Admir Beširević, <a href="https://pmf.unsa.ba/" style="color:white ">Prirodno-matematički fakultet Sarajevo</a></p>
+  </div> 
+</a> 
+<div class="row" style="margin-left: 20px; margin-right: 20px;"> 
+   <div class="col-sm-12 col-md-6 col-lg-6"><img src="ostaleSlike/Screenshot (66).png" style="width:100%"></div>
+   <div class="col-sm-12 col-md-6 col-lg-6"><img src="ostaleSlike/Screenshot (114).png" style="width:100%"></div>
+</div>
+<br><br>
+<a id="projekat3">
+  <div class="text3">
+  <h1 style="text-align:center;">ITERATIVNO RJEŠAVANJE SISTEMA LINEARNIH JEDNAČINA</h1>
+  <p>Problem rješavanja sistema jednačina (lienarnih i nelinearnih) javlja se u gotovo svim segmentima inženjerstva i nauke. Sistemi linearnih jednadžbi su među najstarijim matematičkim problemima.Postoje dvije osnovne skupine u koje se mogu podijeliti metode rješavanja sistema linearnih jednadžbi, a to su direktne i iterativne metode.</p> <p>Iterativni se postupci koriste kada direktne metode nisu dovoljno efikasne, najčešće u situacijama kad je dimenzija sistema jako velika, a broj koeficijenata matrice različitih od nule relativno mali. Za razliku od direktnih metoda, iterativne metode u pravilu ne rezultiraju tačnim rješenjem u konačnom broju koraka, nego postepeno smanjuju grešku nakon svakog koraka.Neke od iteratvnih metoda su  Jacobijeva , Gauss-Seidelova.</p>
+<p>Opšti algoritam iterativnih metoda: </p> 1.Pretpostavi se početno rješenje x(0).
+<br>2.Rješenje x(0) se koristi za dobivanje novog, boljeg, rješenja x(1) pomoću neke strategije smanjenja razlike između rješenja x(0) i stvarnog rješenja x.
+<br>3.Postupak se ponavlja do postizanja željene tačnosti.<br><br>Mentor: prof.Amela Muratović-Ribić, <a href="https://pmf.unsa.ba/" style="color:white ">Prirodno-matematički fakultet Sarajevo</a>
+</p>
+  </div> 
+</a>
+<div class="row" style="margin-left: 20px; margin-right: 20px;"> 
+   <div class="col-sm-12 col-md-6 col-lg-6"><img src="ostaleSlike/Screenshot (72).png" style="width:100%"></div>
+   <div class="col-sm-12 col-md-6 col-lg-6"><img src="ostaleSlike/Screenshot (71).png" style="width:100%"></div>
+</div>
+<br>
+
+<!-- kopirano sa https://getbootstrap.com/docs/5.2/components/card/#header-and-footer -->
+<div class="card">
+  <div class="card-footer"><a class="nav-link active" aria-current="page" href="#pocetak">H O M E</a>
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <a href="https://www.facebook.com/amina.abdibegovic.9" class="facebook"><i class="bi bi-facebook" id="facebook"></i></a><br>
+      <a href="https://www.instagram.com/aminaabdibegovic" class="instagram"><i class="bi bi-instagram"></i></a><br>
+      <i class="bi bi-c-circle">aminaabdibegovic</i>
+      <p> Datum izrade: novembar 2022.</p>
+    </blockquote>
+  </div>
+</div>
+
+</body>
+</html>

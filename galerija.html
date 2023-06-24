@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Galerija</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4365/4365945.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="styles_galerija.css">
+
+</head>
+<body>
+
+ <!-- kopirano sa https://www.w3schools.com/bootstrap5/bootstrap_navbar.php -->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="pocetak">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="pocetna.html">
+      <img src="header.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">     
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="biografija.html"><i class="bi bi-person"> Biografija</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="projekti.html"><i class="bi bi-folder-check"> Projekti</i></a>
+        </li>       
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="blog.html"><i class="bi bi-pencil"> Blog</i></a>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="galerija.html"><i class="bi bi-camera"> Galerija</i></a>
+        </li>
+        </li>
+      </ul>
+    <div class="input-group" style="width:40%">
+      <input type="text" class="form-control" aria-label="Recipient's username with two button addons">
+      <button class="btn btn-outline-secondary" type="button" style="background-color: white; color: black;">Seacrh</button>
+    </div>
+    </div>
+  </div>
+</nav>
+<br>
+<div class="container-fluid" id="galerija">
+   <div class="row" style="margin-left: 5%;">
+    <div class="col-sm-12 col-md-4 col-lg-4"><video controls style="width: 80%;"><source src="galerija/budva1.mp4" type="video/mp4"></video><div class="desc">Otok Sveti Stefan</div></div>
+     <div class="col-sm-12 col-md-4 col-lg-4"><video controls style="width: 80%;"><source src="galerija/more.mp4" type="video/mp4"></video><div class="desc">Budva 2022.</div></div>
+     <div class="col-sm-12 col-md-4 col-lg-4"><video controls style="width: 80%;"><source src="galerija/ploce.mp4" type="video/mp4"></video><div class="desc">Plaža Ploče</div></div>
+   </div>
+    <div class="row" style="margin-left: 5%">
+     <div class="col-sm-12 col-md-4 col-lg-4"><img src="galerija/tulipani.jpg" class="img-fluid" style="width:80%"><div class="desc">Tulipani kod tetke u bašti</div>
+</div>
+     <div class="col-sm-12 col-md-4 col-lg-4"><img src="galerija/ruza.jpg" class="img-fluid" style="width:80%"><div class="desc">Tetkine ruže</div></div>
+     <div class="col-sm-12 col-md-4 col-lg-4"><img src="galerija/basta.jpg" class="img-fluid" style="width:80%"><div class="desc">U našem voćnjaku</div></div>
+   </div>
+<div class="row" style="margin-left: 5%">
+     <div class="col-sm-12 col-md-4 col-lg-4"><img src="galerija/vikendica.jpg" class="img-fluid" style="width:80%;"><div class="desc">Naša vikendica na putu prema Ajvatovici</div></div>
+     <div class="col-sm-12 col-md-4 col-lg-4"><img src="galerija/sipin_most.jpg" class="img-fluid" style="width:80%"><div class="desc">Jezero kod Šipinog mosta</div></div>
+     <div class="col-sm-12 col-md-4 col-lg-4"><img src="galerija/ajvatovica.jpg" class="img-fluid" style="width:80%"><div class="desc">Ajvatovica, stijena</div></div>
+   </div>
+</div>
+
+<!-- kopirano sa https://getbootstrap.com/docs/5.2/components/card/#header-and-footer -->
+<div class="card">
+  <div class="card-footer"><a class="nav-link active" aria-current="page" href="#pocetak">H O M E</a>
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <a href="https://www.facebook.com/amina.abdibegovic.9" class="facebook"><i class="bi bi-facebook" id="facebook"></i></a><br>
+      <a href="https://www.instagram.com/aminaabdibegovic" class="instagram"><i class="bi bi-instagram"></i></a><br>
+      <i class="bi bi-c-circle">aminaabdibegovic</i>
+      <p> Datum izrade: novembar 2022.</p>
+    </blockquote>
+  </div>
+</div>
+</body>
+</body>
+</html>

@@ -1,0 +1,57 @@
+*{
+  font-family: cursive;
+  padding: 0;
+  margin: 0;
+}
+.navbar-nav i  {
+  color: white;
+}
+body{
+  background-color: white;
+}
+.container-fluid{
+  background-color: #1D282D ;
+  color: oldlace;
+}
+.card-footer{
+  background-color:#1D282D ;
+  color: oldlace;
+}
+a.active:hover{
+  background-color: #313E44;
+}
+
+.list-group{
+  width: 350px;
+  height: 250px;
+  font-weight: bold;
+}
+.list-group-item-action{
+  background-color: white;
+  color: #1D282D;
+}
+a.list-group-item-action:hover{
+   background-color: #1D252D ;
+   color: white;
+}
+.text1, .text2, .text3{
+  padding: 20px;
+  background-color: #313E44;
+  margin-left: 1%;
+  text-align: left;
+  color: white;
+  margin-right: 1%;
+}
+
+.card-body{
+  text-align: center;
+}
+.card-body i{
+  color: black;
+}
+.facebook i:hover{
+  color: #0097F9
+}
+.instagram i:hover{
+  color: #E83497;
+}
